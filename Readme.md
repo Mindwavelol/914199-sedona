@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Evgeny Skurlatov](https://up.htmlacademy.ru/htmlcss/23/user/914199).
-* Наставник: `Неизвестно`.
+* Наставник: [Дмитрий Перейро](https://htmlacademy.ru/profile/perejro).
 
 ---
 
