@@ -9,7 +9,7 @@
  		<nav>
  			<a href="index.html" class="main-header-logo">
  				<img src="#" alt="Логотип сайта Sedona "> 
- 				<!-- Добавить src на логотип и указать размеры -->
+ 				<!-- Добавить позже src на логотип и указать размеры -->
  			</a>
  			<ul class="site-navigation">
  				<li><a href="info.html">информация</a></li>
@@ -20,55 +20,130 @@
  		</nav>
  	</header>
   
+
  	<main class="container-hotels">
  		<h1 class="visually-hidden">гостиницы</h1>
     
  		<ul class="catalog-list">
-      <!-- Каждая гостиница - это отдельный элемент списка же, тоесть каждый LI-->
-      <!-- каждый LI мы можем поделить на 3 части - картинки\информацию\рейтинг-->
  			<li class="catalog-hotel">
-        <!-- figure.hotels-photo с картринкой и она не ссылка-->
-           <!-- img -->
-        <!-- /figure-->
-        <!-- div.hotels-info -->
+        <figure class="hotels-photo">
+           <img src="#" alt="amara resort & spa">
+        </figure>
+        <div class="hotels-info">
           <h3>
             <a href="catalog-hotel-amara.html">amara resort & spa</a>
           </h3>
- 				  <!-- тут идет 2 колонки, в первой гостинца и 1 кнопка, во второй цена и 2ая кнопка, но мы им даем общего родителя для дальнейшей ситилиации подсеток-->
- 				  <!-- div.hotels-info-column -->
-             <span class="hotels-text-type">гостиница</span> 
-            <a class="hotels-button">Забронировать</a>
-          <!-- /div. --> 
- 			    <!-- тут вторая колонка по аналогии -->
-        <!-- закрываем div hotels-info -->
-        <!-- div.hotels-rating -->
-          <!-- тут должен быть списол , где каждая li - 1 звезда -->
-          <!-- span с суммарным рейтингом -->
-        <!-- /div -->
-      </li>  
-      <!-- остальные Li -->
-    </ul>
-             
-        
-        
- 			
-  <!-- футер как на главной -->
- 	<footer>
-    	<p>
-    	#visitsedona	
-    	</p>
 
-    	<div class="footer-social">
-    		<ul>
-    			<li><a class="social-button" href="#">twiter</a></li>
-    			<li><a class="social-button" href="#">facebook</a></li>
-    			<li><a class="social-button" href="#">youtube</a></li>
-    		</ul>
-    	</div>
-    	<div class="footer-signature">
-    		<span class="footer-signature-text">website by</span>
-    		<img class="footer-signature-img" src="#" alt="Разработано HTML academy">
-    	</div>
+ 				  <div class="hotels-info-column">
+             <span class="hotels-text-type">гостиница</span> 
+             <span class="hotels-text-type">от 4000 р</span> 
+          </div> 
+          <div class="hotels-info-column">
+            <a class="hotels-button" href="#">подробнее</a>
+            <a class="hotels-button" href="#">забронировать</a>
+          </div> 
+        </div>
+        <div class="hotels-rating">
+          <ul>
+            <li>
+              <img src="#">
+            </li>
+            <li>
+              <img src="#">
+            </li>
+            <li>
+              <img src="#">
+            </li>
+            <li>
+              <img src="#">
+            </li>
+          </ul>
+          <span class="hotels-rating-number">рейтинг: 8,5</span>
+        </div>
+      </li>
+
+      <li class="catalog-hotel">
+        <figure class="hotels-photo">
+           <img src="#" alt="desert quail inn">
+        </figure>
+        <div class="hotels-info">
+          <h3>
+            <a href="catalog-hotel-desert.html">desert quail inn</a>
+          </h3>
+
+          <div class="hotels-info-column">
+             <span class="hotels-text-type">мотель</span> 
+             <span class="hotels-text-type">от 3000 р</span> 
+          </div> 
+          <div class="hotels-info-column">
+            <a class="hotels-button" href="#">подробнее</a>
+            <a class="hotels-button" href="#">забронировать</a>
+          </div> 
+        </div>
+        <div class="hotels-rating">
+          <ul>
+            <li>
+              <img src="#">
+            </li>
+            <li>
+              <img src="#">
+            </li>
+            <li>
+              <img src="#">
+            </li>
+          </ul>
+          <span class="hotels-rating-number">рейтинг: 8,9</span>
+        </div>
+      </li>
+
+      <li class="catalog-hotel">
+        <figure class="hotels-photo">
+           <img src="#" alt="villas at poco diablo">
+        </figure>
+        <div class="hotels-info">
+          <h3>
+            <a href="catalog-hotel-diablo.html">villas at poco diablo</a>
+          </h3>
+
+          <div class="hotels-info-column">
+             <span class="hotels-text-type">аппартаменты</span> 
+             <span class="hotels-text-type">от 2000 р</span> 
+          </div> 
+          <div class="hotels-info-column">
+            <a class="hotels-button" href="#">подробнее</a>
+            <a class="hotels-button" href="#">забронировать</a>
+          </div> 
+        </div>
+        <div class="hotels-rating">
+          <ul>
+            <li>
+              <img src="#">
+            </li>
+            <li>
+              <img src="#">
+            </li>
+          </ul>
+          <span class="hotels-rating-number">рейтинг: 9,2</span>
+        </div>
+      </li>
+    </ul>
+  </main>
+
+    <footer>
+      <p>
+         #visitsedona 
+        </p>
+        <ul class="footer-social">
+          <li><a class="social-button" href="#">twiter</a></li>
+          <li><a class="social-button" href="#">facebook</a></li>
+          <li><a class="social-button" href="#">youtube</a></li>
+        </ul>
+      <div class="footer-signature">
+            <span class="footer-signature-text">website by</span>
+            <a href="https://htmlacademy.ru/">
+                <img class="footer-signature-img" src="#" alt="Разработано HTML academy">
+            </a>
+        </div>
     </footer>
 </body>
 </html>
