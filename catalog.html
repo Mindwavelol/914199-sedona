@@ -19,67 +19,40 @@
  			</ul>
  		</nav>
  	</header>
+  
  	<main class="container-hotels">
  		<h1 class="visually-hidden">гостиницы</h1>
+    
  		<ul class="catalog-list">
+      <!-- Каждая гостиница - это отдельный элемент списка же, тоесть каждый LI-->
+      <!-- каждый LI мы можем поделить на 3 части - картинки\информацию\рейтинг-->
  			<li class="catalog-hotel">
- 				<h3>
- 					<a href="catalog-hotel-amara.html">amara resort & spa</a>
- 				</h3>
- 				<p class="catalog-hotel-image">
- 					<a href="catalog-hotel-amara.html">
- 					<img src="img/amara.jpg" alt="гостиница amara resort & spa">
- 					</a>
- 				</p>
- 				<p class="catalog-hotel-price">
- 					<span class="hotels-text-type">гостиница</span> 
- 					<span class="hotels-text-price">от 4000 р.</span>
- 				</p>
- 				<p class="catalog-hotel-buttons">
- 				   <a class="detail-hotel" href="#">подробнее</a>
- 				   <a class="make-a-reservation" href="#">забронировать</a>
- 				   <span class="hotels-rating">рейтинг: 8,5</span>
- 				</p>
-
- 				<h3>
- 					<a href="catalog-motel-desert.html">desert quail inn</a>
- 				</h3>
- 				<p class="catalog-hotel-image">
- 						<a href="catalog-hotel-amara.html">
- 						<img src="img/desert.jpg" alt="мотель desert quail inn">
- 						</a>
- 				</p>
- 				<p class="catalog-hotel-price">
- 					<span class="hotels-text-type">мотель </span>
- 					<span class="hotels-text-price">от 3000 р.</span>
- 				</p>
- 				<p class="catalog-hotel-buttons">
- 				   <a class="detail-hotel" href="#">подробнее</a>
- 				   <a class="make-a-reservation" href="#">забронировать</a>
- 				   <span class="hotels-rating">рейтинг: 8,9</span>
- 				</p>
-
- 				<h3>
- 					<a href="catalog-motel-desert.html">villas at poco diablo</a>
- 				</h3>
- 				<p class="catalog-hotel-image">
- 						<a href="catalog-apartments-diablo.html">
- 						<img src="img/diablo.jpg" alt="аппартаменты  poco diablo">
- 						</a>
- 				</p>
- 				<p class="catalog-hotel-price">
- 					<span class="hotels-text-type">апартаменты</span>
- 					<span class="hotels-text-price">от 2000 р.</span>
- 				</p>
- 				<p class="catalog-hotel-buttons">
- 				   <a class="detail-hotel" href="#">подробнее</a>
- 				   <a class="make-a-reservation" href="#">забронировать</a>
- 				   <span class="hotels-rating">рейтинг: 9,2</span>
- 				</p>
- 			</li>
- 		</ul>
- 	</main>
-
+        <!-- figure.hotels-photo с картринкой и она не ссылка-->
+           <!-- img -->
+        <!-- /figure-->
+        <!-- div.hotels-info -->
+          <h3>
+            <a href="catalog-hotel-amara.html">amara resort & spa</a>
+          </h3>
+ 				  <!-- тут идет 2 колонки, в первой гостинца и 1 кнопка, во второй цена и 2ая кнопка, но мы им даем общего родителя для дальнейшей ситилиации подсеток-->
+ 				  <!-- div.hotels-info-column -->
+             <span class="hotels-text-type">гостиница</span> 
+            <a class="hotels-button">Забронировать</a>
+          <!-- /div. --> 
+ 			    <!-- тут вторая колонка по аналогии -->
+        <!-- закрываем div hotels-info -->
+        <!-- div.hotels-rating -->
+          <!-- тут должен быть списол , где каждая li - 1 звезда -->
+          <!-- span с суммарным рейтингом -->
+        <!-- /div -->
+      </li>  
+      <!-- остальные Li -->
+    </ul>
+             
+        
+        
+ 			
+  <!-- футер как на главной -->
  	<footer>
     	<p>
     	#visitsedona	
