@@ -9,7 +9,7 @@
   <body class="home-page">
     <header>
  		<nav>
- 			<a class="main-header-logo" href="#" title="главная страница"> 
+ 			<a class="main-header-logo" href="#" aria-label="Поиск жилья в городе седона"> 
  				<img src="img/logo-sedona.svg" width="140px" height="72px" alt="Логотип сайта Sedona"> 
  			</a>
  			<ul class="site-navigation">
@@ -100,19 +100,22 @@
 	  	<h2>заинтересовались?</h2>
     	<p>
     		укажите предполагаемые даты поездки,<br>
-    		и мы покажем вам лучшие предложениягостиниц в седоне
+    		и мы покажем вам лучшие предложения гостиниц в седоне
     	</p>
+      <p>
+        <button class="button_booking">поиск гостиницы в седоне</button>
+      </p>
 
       <form class="appointment-form" action="http://echo.htmlacademy.ru" method="post">
         <p class="appointment-item">
           <label for="appointment-arrival">дата заезда:</label> 
           <input id="appointment-arrival" type="text" name="data-arrival" value="" placeholder="24 апреля 2017">
-          <a class="form-calendar" href="#" title="открыть календарь"></a>
+          <a class="form-calendar" href="#" aria-label="открыть календарь"></a>
         </p>
         <p class="appointment-item">
           <label for="appointment-departure">дата выезда:</label>
           <input id="appointment-departure" type="text" name="data-departure" value="" placeholder="4 июля 2017">
-          <a class="form-calendar" href="#" title="открыть календарь"></a>
+          <a class="form-calendar" href="#" aria-label="открыть календарь"></a>
         </p>
         <span class="appointment-item">
           <label for="appointment-adults">взрослые:</label>
@@ -149,7 +152,7 @@
         </ul>
         <div class="footer-signature">
             <span class="footer-signature-text">website by</span>
-            <a href="https://htmlacademy.ru/" title="HTML академия">
+            <a href="https://htmlacademy.ru/" aria-label="сайт HTML академия">
                 <img class="footer-signature-img" src="img/logo-htmlacademy.svg" width="115px" height="41px" alt="Разработано HTML academy">
             </a>
         </div>
