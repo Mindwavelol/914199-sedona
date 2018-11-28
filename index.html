@@ -102,38 +102,47 @@
     		укажите предполагаемые даты поездки,<br>
     		и мы покажем вам лучшие предложения гостиниц в седоне
     	</p>
+
       <p>
-        <button class="button_booking">поиск гостиницы в седоне</button>
+        <button type="button" class="button_booking">поиск гостиницы в седоне</button>
       </p>
 
-      <form class="appointment-form" action="http://echo.htmlacademy.ru" method="post">
-        <p class="appointment-item">
-          <label for="appointment-arrival">дата заезда:</label> 
-          <input id="appointment-arrival" type="text" name="data-arrival" value="" placeholder="24 апреля 2017">
-          <a class="form-calendar" href="#" aria-label="открыть календарь"></a>
-        </p>
-        <p class="appointment-item">
-          <label for="appointment-departure">дата выезда:</label>
-          <input id="appointment-departure" type="text" name="data-departure" value="" placeholder="4 июля 2017">
-          <a class="form-calendar" href="#" aria-label="открыть календарь"></a>
-        </p>
-        <span class="appointment-item">
-          <label for="appointment-adults">взрослые:</label>
-          <button type="button" class="button-amount" aria-label="убрать взрослого">-</button>
-          <input id="appointment-adults" type="text" name="adults" value="" placeholder="2">
-          <button type="button" class="button-amount" aria-label="добавить взрослого">+</button>
-        </span>
-        <span class="appointment-item">
-          <label for="appointment-children">дети:</label>
-          <button type="button" class="button-amount" aria-label="убрать ребенка">-</button>
-          <input id="appointment-children" type="text" name="children" value="" placeholder="0">
-          <button type="button" class="button-amount" aria-label="добавить ребенка">+</button>
-        </span>
-        <p>
-          <button class="button" type="submit">найти</button>
-        </p>
-      </form>
+      <div class="appointment">
+        <form class="appointment-form" action="http://echo.htmlacademy.ru" method="post">
+
+         <div class="appointment-item">
+           <label for="appointment-arrival">дата заезда:</label> 
+           <input id="appointment-arrival" type="text" name="data-arrival" value="" placeholder="24 апреля 2017">
+           <a class="form-calendar" href="#" aria-label="открыть календарь"></a>
+         </div>
+
+         <div class="appointment-item">
+           <label for="appointment-departure">дата выезда:</label>
+           <input id="appointment-departure" type="text" name="data-departure" value="" placeholder="4 июля 2017">
+            <a class="form-calendar" href="#" aria-label="открыть календарь"></a>
+         </div>
+
+          <div class="appointment-item">
+            <label for="appointment-adults">взрослые:</label>
+            <button type="button" class="button-amount" aria-label="убрать взрослого">-</button>
+            <input id="appointment-adults" type="text" name="adults" value="" placeholder="2">
+            <button type="button" class="button-amount" aria-label="добавить взрослого">+</button>
+          </div>
+
+          <div class="appointment-item">
+           <label for="appointment-children">дети:</label>
+           <button type="button" class="button-amount" aria-label="убрать ребенка">-</button>
+            <input id="appointment-children" type="text" name="children" value="" placeholder="0">
+            <button type="button" class="button-amount" aria-label="добавить ребенка">+</button>
+          </div>
+          <div>
+          <!-- Сделай ссылкой -->
+            <a class="button" type="submit">найти</a>
+          </div>
+        </form>
+      </div>  
 	  </section>
+    
 
     <section class="sedona-map">
       <h2 class="visually-hidden">Карта города</h2>
