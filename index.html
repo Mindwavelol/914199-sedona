@@ -102,31 +102,38 @@
     		укажите предполагаемые даты поездки,<br>
     		и мы покажем вам лучшие предложениягостиниц в седоне
     	</p>
-
+      <!-- где кнопка делась поиск гостинницы в седоне ? -->
+      <!-- обверни форму в div -->
       <form class="appointment-form" action="http://echo.htmlacademy.ru" method="post">
+        <!-- p Замени на div -->
         <p class="appointment-item">
           <label for="appointment-arrival">дата заезда:</label> 
           <input id="appointment-arrival" type="text" name="data-arrival" value="" placeholder="24 апреля 2017">
           <a class="form-calendar" href="#" title="открыть календарь"></a>
         </p>
+        <!-- p Замени на div -->
         <p class="appointment-item">
           <label for="appointment-departure">дата выезда:</label>
           <input id="appointment-departure" type="text" name="data-departure" value="" placeholder="4 июля 2017">
           <a class="form-calendar" href="#" title="открыть календарь"></a>
         </p>
+        <!-- span Замени на div -->
         <span class="appointment-item">
           <label for="appointment-adults">взрослые:</label>
           <button type="button" class="button-amount" aria-label="убрать взрослого">-</button>
           <input id="appointment-adults" type="text" name="adults" value="" placeholder="2">
           <button type="button" class="button-amount" aria-label="добавить взрослого">+</button>
         </span>
+        <!-- span Замени на div -->
         <span class="appointment-item">
           <label for="appointment-children">дети:</label>
           <button type="button" class="button-amount" aria-label="убрать ребенка">-</button>
           <input id="appointment-children" type="text" name="children" value="" placeholder="0">
           <button type="button" class="button-amount" aria-label="добавить ребенка">+</button>
         </span>
+        <!-- p Замени на div -->
         <p>
+          <!-- Сделай ссылкой -->
           <button class="button" type="submit">найти</button>
         </p>
       </form>
