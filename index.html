@@ -9,14 +9,14 @@
   <body class="home-page">
     <header>
  		<nav>
- 			<a class="main-header-logo" href="#"> 
+ 			<a class="main-header-logo" href="#" title="главная страница"> 
  				<img src="img/logo-sedona.svg" width="140px" height="72px" alt="Логотип сайта Sedona"> 
  			</a>
  			<ul class="site-navigation">
- 				<li><a href="index.html">информация</a></li>
- 				<li><a href="#">фото и видео</a></li>
- 				<li><a href="#">карта штата</a></li>
- 				<li><a href="catalog.html">гостиницы</a></li>
+ 				<li><a href="index.html" title="Раздел инфрмации">информация</a></li>
+        <li><a href="#" title="Раздел фото и видео">фото и видео</a></li>
+        <li><a href="#" title="Карта штата">карта штата</a></li>
+        <li class="site-navigation-current"><a href="hotels.html" title="раздел гостиницы">гостиницы</a></li>
  			</ul>
  		</nav>
  	</header>
@@ -102,31 +102,34 @@
     		укажите предполагаемые даты поездки,<br>
     		и мы покажем вам лучшие предложениягостиниц в седоне
     	</p>
-      <!-- тут будет форма -->
 
-      <!-- <form class="appointment-form" action="http://echo.htmlacademy.ru" method="post">
+      <form class="appointment-form" action="http://echo.htmlacademy.ru" method="post">
         <p class="appointment-item">
           <label for="appointment-arrival">дата заезда:</label> 
           <input id="appointment-arrival" type="text" name="data-arrival" value="" placeholder="24 апреля 2017">
+          <a class="form-calendar" href="#" title="открыть календарь"></a>
         </p>
         <p class="appointment-item">
           <label for="appointment-departure">дата выезда:</label>
           <input id="appointment-departure" type="text" name="data-departure" value="" placeholder="4 июля 2017">
+          <a class="form-calendar" href="#" title="открыть календарь"></a>
         </p>
         <span class="appointment-item">
-           А где кнопки ?
           <label for="appointment-adults">взрослые:</label>
+          <button type="button" class="button-amount" aria-label="убрать взрослого">-</button>
           <input id="appointment-adults" type="text" name="adults" value="" placeholder="2">
+          <button type="button" class="button-amount" aria-label="добавить взрослого">+</button>
         </span>
         <span class="appointment-item">
-        А где кнопки ?
           <label for="appointment-children">дети:</label>
+          <button type="button" class="button-amount" aria-label="убрать ребенка">-</button>
           <input id="appointment-children" type="text" name="children" value="" placeholder="0">
+          <button type="button" class="button-amount" aria-label="добавить ребенка">+</button>
         </span>
         <p>
           <button class="button" type="submit">найти</button>
         </p>
-      </form> -->
+      </form>
 	  </section>
 
     <section class="sedona-map">
@@ -140,13 +143,13 @@
             #visitsedona
         </p>
         <ul>
-            <li><a class="social-button" href="#">twitter</a></li>
-            <li><a class="social-button" href="#">facebook</a></li>
-            <li><a class="social-button" href="#">youtube</a></li>
+            <li><a class="social-button" href="#" title="мы в твиттере">twiter</a></li>
+            <li><a class="social-button" href="#" title="мы в фейсбуке">facebook</a></li>
+            <li><a class="social-button" href="#" title="мы на ютубе">youtube</a></li>
         </ul>
         <div class="footer-signature">
             <span class="footer-signature-text">website by</span>
-            <a href="https://htmlacademy.ru/">
+            <a href="https://htmlacademy.ru/" title="HTML академия">
                 <img class="footer-signature-img" src="img/logo-htmlacademy.svg" width="115px" height="41px" alt="Разработано HTML academy">
             </a>
         </div>

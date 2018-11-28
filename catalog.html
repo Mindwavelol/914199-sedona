@@ -9,22 +9,21 @@
 <body class="inner-page">
 	<header>
  		<nav>
- 			<a href="index.html" class="main-header-logo">
+ 			<a href="index.html" class="main-header-logo" title="на главную страницу">
  				<img src="img/logo-sedona.svg" width="140px" height="72px" alt="Логотип сайта Sedona ">
  			</a>
  			<ul class="site-navigation">
- 				<li><a href="index.html">информация</a></li>
- 				<li><a href="#">фото и видео</a></li>
- 				<li><a href="#">карта штата</a></li>
- 				<li class="site-navigation-current"><a href="hotels.html">гостиницы</a></li>
+ 				<li><a href="index.html" title="Раздел инфрмации">информация</a></li>
+ 				<li><a href="#" title="Раздел фото и видео">фото и видео</a></li>
+ 				<li><a href="#" title="Карта штата">карта штата</a></li>
+ 				<li class="site-navigation-current"><a href="hotels.html" title="раздел гостиницы">гостиницы</a></li>
  			</ul>
  		</nav>
  	</header>
   
 
  	<main class="container-hotels">
-    <!-- тут будет фильтр -->
-    <!-- <section class="filters">
+    <section class="filters">
       <h2 class="visually-hidden">Фильтр гостиниц</h2>
       <form class="filter" method="get" action="http://echo.htmlacademy.ru">
         <fieldset>
@@ -61,11 +60,23 @@
             </li>
           </ul>
         </fieldset>
+        <fieldset>
+          <legend>стоимость в сутки</legend>
+          <p class="search_price">
+            <input type="number" name="minPrice" placeholder="от 0">
+            <input type="number" name="maxPrice" placeholder="до 3000">
+          </p>
+
+          <p class="search_range">
+            <button class="button_minPrice" type="button">минимальная цена</button>
+            <button class="button_maxPrice" type="button">максимальная цена</button>
+          </p>
+        </fieldset>
         <button type="submit" class="filter-button">
           показать
         </button>
       </form>
-    </section> -->
+    </section>
  		<h1 class="visually-hidden">гостиницы</h1>
     
  		<ul class="catalog-list">
@@ -79,12 +90,12 @@
           </h3>
           
  				  <div class="hotels-info-column">
-             <span class="hotels-text-type">гостиница</span> 
-             <a class="hotels-button" href="#">подробнее</a>
+             <span class="hotels-text-type">гостиница</span>
+             <a class="hotels-button" href="#" title="подробнее о гостинице">подробнее</a>
           </div> 
           <div class="hotels-info-column">
             <span class="hotels-text-type">от 4000 р</span> 
-            <a class="hotels-button" href="#">забронировать</a>
+            <a class="hotels-button" href="#" title="забронировать гостиницу">забронировать</a>
           </div> 
         </div>
         <div class="hotels-rating">
@@ -117,11 +128,11 @@
 
           <div class="hotels-info-column">
              <span class="hotels-text-type">мотель</span> 
-             <a class="hotels-button" href="#">подробнее</a>
+             <a class="hotels-button" href="#" title="подробнее о мотеле">подробнее</a>
           </div> 
           <div class="hotels-info-column">
             <span class="hotels-text-type">от 3000 р</span> 
-            <a class="hotels-button" href="#">забронировать</a>
+            <a class="hotels-button" href="#" title="забронировать мотель">забронировать</a>
           </div> 
         </div>
         <div class="hotels-rating">
@@ -151,11 +162,11 @@
 
           <div class="hotels-info-column">
              <span class="hotels-text-type">апартаменты</span> 
-             <a class="hotels-button" href="#">подробнее</a>
+             <a class="hotels-button" href="#" title="подробне об апартаментах">подробнее</a>
           </div> 
           <div class="hotels-info-column">
             <span class="hotels-text-type">от 2000 р</span> 
-            <a class="hotels-button" href="#">забронировать</a>
+            <a class="hotels-button" href="#" title="забронировать апартаменты">забронировать</a>
           </div> 
         </div>
         <div class="hotels-rating">
@@ -178,13 +189,13 @@
          #visitsedona 
         </p>
         <ul class="footer-social">
-          <li><a class="social-button" href="#">twiter</a></li>
-          <li><a class="social-button" href="#">facebook</a></li>
-          <li><a class="social-button" href="#">youtube</a></li>
+          <li><a class="social-button" href="#" title="мы в твиттере">twiter</a></li>
+          <li><a class="social-button" href="#" title="мы в фейсбуке">facebook</a></li>
+          <li><a class="social-button" href="#" title="мы на ютубе">youtube</a></li>
         </ul>
       <div class="footer-signature">
             <span class="footer-signature-text">website by</span>
-            <a href="https://htmlacademy.ru/">
+            <a href="https://htmlacademy.ru/" title="HTML академия">
                 <img class="footer-signature-img" src="img/logo-htmlacademy.svg" width="115px" height="41px" alt="Разработано HTML academy">
             </a>
         </div>
