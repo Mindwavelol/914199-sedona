@@ -3,12 +3,13 @@
 <head>
 	<meta charset="utf-8">
 	<title>Каталог</title>
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body class="inner-page">
 	<header>
- 		<nav>
+ 		<nav class="main-header">
  			<a href="index.html" class="main-header-logo" aria-label="Поиск жилья в городе седона">
  				<img src="img/logo-sedona.svg" width="140px" height="72px" alt="Логотип сайта Sedona ">
  			</a>
@@ -85,7 +86,7 @@
            <img src="img/amara.jpg" alt="amara resort & spa">
         </figure>
         <div class="hotels-info">
-          <h3>
+          <h3 class="hotels-headline">
             <a href="#">amara resort & spa</a>
           </h3>
           
@@ -95,11 +96,11 @@
           </div> 
           <div class="hotels-info-column">
             <span class="hotels-text-type">от 4000 р</span> 
-            <a class="hotels-button" href="#" aria-label="забронировать гостиницу">забронировать</a>
+            <a class="hotels-button-book" href="#" aria-label="забронировать гостиницу">забронировать</a>
           </div> 
         </div>
         <div class="hotels-rating">
-          <ul>
+          <ul class="rating-list">
             <li>
               <img src="img/star.svg">
             </li>
@@ -122,7 +123,7 @@
            <img src="img/desert.jpg" alt="desert quail inn">
         </figure>
         <div class="hotels-info">
-          <h3>
+          <h3 class="hotels-headline">
             <a href="#">desert quail inn</a>
           </h3>
 
@@ -132,11 +133,11 @@
           </div> 
           <div class="hotels-info-column">
             <span class="hotels-text-type">от 3000 р</span> 
-            <a class="hotels-button" href="#" aria-label="забронировать мотель">забронировать</a>
+            <a class="hotels-button-book" href="#" aria-label="забронировать мотель">забронировать</a>
           </div> 
         </div>
         <div class="hotels-rating">
-          <ul>
+          <ul class="rating-list">
             <li>
               <img src="img/star.svg">
             </li>
@@ -156,8 +157,8 @@
            <img src="img/villas.jpg" alt="villas at poco diablo">
         </figure>
         <div class="hotels-info">
-          <h3>
-            <a href="#">villas at poco diablo</a>
+          <h3 class="hotels-headline">
+            <a class="hotels-link" href="#">villas at poco diablo</a>
           </h3>
 
           <div class="hotels-info-column">
@@ -166,11 +167,11 @@
           </div> 
           <div class="hotels-info-column">
             <span class="hotels-text-type">от 2000 р</span> 
-            <a class="hotels-button" href="#" aria-label="забронировать апартаменты">забронировать</a>
+            <a class="hotels-button-book" href="#" aria-label="забронировать апартаменты">забронировать</a>
           </div> 
         </div>
         <div class="hotels-rating">
-          <ul>
+          <ul class="rating-list"> 
             <li>
               <img src="img/star.svg">
             </li>
@@ -184,16 +185,16 @@
     </ul>
   </main>
 
-    <footer>
-      <p>
+    <footer class="main-footer">
+        <p class="footer-signature">
          #visitsedona 
         </p>
-        <ul class="footer-social">
-          <li><a class="social-button" href="#" title="мы в твиттере">twiter</a></li>
-          <li><a class="social-button" href="#" title="мы в фейсбуке">facebook</a></li>
-          <li><a class="social-button" href="#" title="мы на ютубе">youtube</a></li>
+        <ul class="social"">
+          <li><a class="social-button" href="#" title="мы в твиттере"><span class="visually-hidden">twiter</span></a></li>
+          <li><a class="social-button" href="#" title="мы в фейсбуке"><span class="visually-hidden">facebook</span></a></li>
+          <li><a class="social-button" href="#" title="мы на ютубе"><span class="visually-hidden">youtube</span></a></li>
         </ul>
-      <div class="footer-signature">
+      <div class="footer-signature-html">
             <span class="footer-signature-text">website by</span>
             <a href="https://htmlacademy.ru/" aria-label="сайт HTML академия">
                 <img class="footer-signature-img" src="img/logo-htmlacademy.svg" width="115px" height="41px" alt="Разработано HTML academy">

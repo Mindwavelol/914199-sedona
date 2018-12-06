@@ -1,0 +1,280 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "PT Sans", Arial, sans-serif;
+	font-size: 14px;
+	line-height: 26px;
+	font-weight: 400;
+	text-transform: uppercase;
+	color: #000000;
+	background-color: #f2f2f2;
+	
+}
+
+a {
+	text-decoration: none;
+}
+
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
+/*------------------------header--------------------*/
+
+.main-header {
+	font-size: 14px;
+	line-height: 26px;
+	font-weight: 700; 
+	
+}
+
+.main-navigation {
+	color: #000000;
+	background-color: #ffffff;
+}
+
+.site-navigation {
+	list-style: none;
+}
+
+.site-navigation a{
+	color: #000000;
+
+}
+.site-navigation a:hover,
+.site-navigation a:focus {
+	color: #81b3d2;
+}
+
+/*-------------------------main------------------------*/
+
+.headline {
+	font-weight: 700;
+}
+.headline-slogan {
+	text-align: center;
+	font-size: 21px;
+	line-height: 26px;
+	font-weight: 700;
+}
+.about-sedona {
+	text-align: center;
+}
+
+.splash {
+	text-align: center;
+	background-image: url(../img/bg_photo.jpg);
+	background-repeat: no-repeat;
+}
+
+.benefits {
+	list-style: none;
+}
+
+.item {
+	text-align: center;
+	list-style: none;
+}
+
+.headline-slogan {
+	background-image: url(../img/intro-mask.svg);
+	background-repeat: no-repeat;
+}
+
+.advantages-block h3{
+	font-size: 21px;
+}
+
+.advantage-block,
+.advantage-block-reverse {
+	list-style: none;
+	color: #ffffff;
+}
+
+.text-block {
+	text-align: center;
+	background-color: #81b3d2;
+	box-sizing: border-box;
+}
+
+.booking {
+	text-align: center;
+}
+
+.button-booking {
+  	width: 500px;
+  	padding: 30px;
+  	font-size: 21px;
+  	line-height: 26px;
+  	font-weight: 700;
+  	text-transform: uppercase;
+  	color: #ffffff;
+  	background-color: #766357;
+}
+
+.button {
+	font:inherit;
+
+	text-align: center;
+	color: #ffffff;
+	vertical-align: middle;
+	text-transform: uppercase;
+
+	background-color: #81b3d2;
+	border: none;
+}
+
+.button:hover,
+.button:focus {
+	background-color: #669ec0;
+}
+
+.button:active {
+	color: rgba(255, 255, 255, 0,7);
+	background-color: #5496bd;
+}
+
+
+/*------------------------catalog----------------------*/
+
+.filters form {
+	background-color: #bebebe;
+	background-image: url(../img/filter_blur.jpg);
+	background-repeat: no-repeat;
+}
+
+.filters fieldset {
+	margin: 0px;
+	padding: 0px;
+	color: #ffffff;
+	font-size: 16px;
+	line-height: 21px;
+	border: none;
+}
+
+.filters li {
+	font-size: 14px;
+	line-height: 21px;
+	list-style: none;
+}
+
+.filter-button {
+	font-family: inherit;
+	font-size: 14px;
+	line-height: 21px;
+	font-weight: 400;
+	text-align: center;
+	color: #ffffff;
+	text-transform: uppercase;
+	background-color: transparent;
+	border: 2px solid #ffffff;
+	border-radius: 2px;
+
+}
+
+.filter-button:hover,
+.filter-button:focus {
+	color: #000000;
+  	background-color: #ffffff;
+  	border: 2px solid #ffffff;
+  	border-radius: 2px;
+}
+
+.hotels-headline a{
+	font-size: 21px;
+	line-height: 26px;
+	font-weight: 700;
+	color: #000000;
+	outline: none;
+}
+
+.hotels-headline a:hover,
+.hotels-headline a:focus {
+	color: #81b3d2;
+}
+.hotels-headline a:active {
+	color:#b2b2b2;
+}
+
+.hotels-button {
+	color: #ffffff;
+	background-color: #81b3d2;
+}
+
+.hotels-button:hover,
+.hotels-button:focus {
+  background-color: #669ec0;
+}
+
+.hotels-button:active {
+  color: #94b9d2;
+  background-color: #5496bd;
+}
+
+.hotels-button-book {
+	color:#ffffff;
+	background-color: #766357;
+}
+
+.hotels-button-book:hover,
+.hotels-button-book:focus {
+  background-color: #604e43;
+}
+
+.hotels-button-book:active {
+  color: #928a85;
+  background-color: #503e33;
+}
+
+.rating-list {
+	list-style: none;
+}
+
+
+/*------------------------footer-----------------------*/
+
+.footer-signature {
+	font-weight: 700;
+}
+
+.main-footer {
+  background-color: #ffffff;
+}
+
+.footer-signature {
+  width: 400px;
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: 700;
+
+  color: #000000;
+}
+
+.footer-signature-html {
+  width: 400px;
+}
+.footer-signature-html img {
+  vertical-align: middle;
+}
+
+.social {
+	display: flex;
+	margin: auto;
+  	justify-content: center;
+  	width: 400px;
+  	text-align: center;
+  	list-style: none;
+
+}
+
+.social a {
+  	content: '';
+  	display: block;
+  	margin: 5px;
+  	height: 48px;
+  	width: 48px;
+  	background-color: #81b3d2;
+}
