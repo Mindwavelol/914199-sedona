@@ -105,6 +105,7 @@ a {
 }
 
 .button-booking {
+  <!-- ФОРМАТИРОВАНИЕ -->
 	text-align: center;
   	width: 500px;
   	padding: 30px;
@@ -163,6 +164,7 @@ a {
 }
 
 .filter-button {
+  <!-- ФОРМАТИРОВАНИЕ -->
 	font-family: inherit;
 	font-size: 14px;
 	line-height: 21px;
@@ -177,7 +179,8 @@ a {
 }
 
 .filter-button:hover,
-.filter-button:focus {
+.filter-button:focus 
+<!-- ФОРМАТИРОВАНИЕ -->
 	color: #000000;
   	background-color: #ffffff;
   	border: 2px solid #ffffff;
@@ -262,6 +265,7 @@ a {
 }
 
 .social {
+  <!-- ФОРМАТИРОВАНИЕ -->
 	display: flex;
 	margin: auto;
   	justify-content: center;
@@ -272,6 +276,7 @@ a {
 }
 
 .social a {
+  <!-- ФОРМАТИРОВАНИЕ что за контент? он пишется только у псевдоэлемнтов-->
   	content: '';
   	display: block;
   	margin: 5px;
