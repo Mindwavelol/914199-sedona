@@ -28,7 +28,6 @@ a {
 	font-size: 14px;
 	line-height: 26px;
 	font-weight: 700; 
-	
 }
 
 .main-navigation {
@@ -40,7 +39,7 @@ a {
 	list-style: none;
 }
 
-.site-navigation a{
+.site-navigation a {
 	color: #000000;
 
 }
@@ -54,12 +53,14 @@ a {
 .headline {
 	font-weight: 700;
 }
+
 .headline-slogan {
 	text-align: center;
 	font-size: 21px;
 	line-height: 26px;
 	font-weight: 700;
 }
+
 .about-sedona {
 	text-align: center;
 }
@@ -84,7 +85,7 @@ a {
 	background-repeat: no-repeat;
 }
 
-.advantages-block h3{
+.advantages-block h3 {
 	font-size: 21px;
 }
 
@@ -105,26 +106,22 @@ a {
 }
 
 .button-booking {
-  <!-- ФОРМАТИРОВАНИЕ -->
-	text-align: center;
-  	width: 500px;
-  	padding: 30px;
-  	font-size: 21px;
+	font-size: 21px;
   	line-height: 26px;
   	font-weight: 700;
+  	width: 500px;
+  	padding: 30px;
   	text-transform: uppercase;
   	color: #ffffff;
   	background-color: #766357;
 }
 
 .button {
-	font:inherit;
-
+	font: inherit;
 	text-align: center;
 	color: #ffffff;
 	vertical-align: middle;
 	text-transform: uppercase;
-
 	background-color: #81b3d2;
 	border: none;
 }
@@ -164,7 +161,6 @@ a {
 }
 
 .filter-button {
-  <!-- ФОРМАТИРОВАНИЕ -->
 	font-family: inherit;
 	font-size: 14px;
 	line-height: 21px;
@@ -175,19 +171,19 @@ a {
 	background-color: transparent;
 	border: 2px solid #ffffff;
 	border-radius: 2px;
-
 }
 
 .filter-button:hover,
-.filter-button:focus 
-<!-- ФОРМАТИРОВАНИЕ -->
+.filter-button:focus {
+	font-size: 14px;
+	line-height: 21px;
 	color: #000000;
   	background-color: #ffffff;
   	border: 2px solid #ffffff;
   	border-radius: 2px;
 }
 
-.hotels-headline a{
+.hotels-headline a {
 	font-size: 21px;
 	line-height: 26px;
 	font-weight: 700;
@@ -199,6 +195,7 @@ a {
 .hotels-headline a:focus {
 	color: #81b3d2;
 }
+
 .hotels-headline a:active {
 	color:#b2b2b2;
 }
@@ -237,7 +234,6 @@ a {
 	list-style: none;
 }
 
-
 /*------------------------footer-----------------------*/
 
 .footer-signature {
@@ -253,31 +249,29 @@ a {
   font-size: 21px;
   line-height: 26px;
   font-weight: 700;
-
   color: #000000;
 }
 
 .footer-signature-html {
   width: 400px;
 }
+
 .footer-signature-html img {
   vertical-align: middle;
 }
 
 .social {
-  <!-- ФОРМАТИРОВАНИЕ -->
+	font-size: 14px;
+	line-height: 26px;
 	display: flex;
 	margin: auto;
   	justify-content: center;
   	width: 400px;
   	text-align: center;
   	list-style: none;
-
 }
 
 .social a {
-  <!-- ФОРМАТИРОВАНИЕ что за контент? он пишется только у псевдоэлемнтов-->
-  	content: '';
   	display: block;
   	margin: 5px;
   	height: 48px;
