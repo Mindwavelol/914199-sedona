@@ -105,6 +105,7 @@ a {
 	text-align: center;
 }
 
+/* ??? */
 .button-booking {
 	font-size: 21px;
   	line-height: 26px;
@@ -172,7 +173,7 @@ a {
 	border: 2px solid #ffffff;
 	border-radius: 2px;
 }
-
+/* ??? */
 .filter-button:hover,
 .filter-button:focus {
 	font-size: 14px;
@@ -259,7 +260,7 @@ a {
 .footer-signature-html img {
   vertical-align: middle;
 }
-
+/* ??? */
 .social {
 	font-size: 14px;
 	line-height: 26px;
@@ -278,3 +279,5 @@ a {
   	width: 48px;
   	background-color: #81b3d2;
 }
+
+/* где 1 таб, где 2 ... */
