@@ -16,7 +16,7 @@ a {
 }
 
 .visually-hidden {
- 	position: absolute;
+	position: absolute;
  	clip: rect(0 0 0 0);
  	width: 1px;
  	height: 1px;
@@ -105,16 +105,15 @@ a {
 	text-align: center;
 }
 
-/* ??? */
 .button-booking {
 	font-size: 21px;
-  	line-height: 26px;
-  	font-weight: 700;
-  	width: 500px;
-  	padding: 30px;
-  	text-transform: uppercase;
-  	color: #ffffff;
-  	background-color: #766357;
+	line-height: 26px;
+	font-weight: 700;
+	width: 500px;
+	padding: 30px;
+	text-transform: uppercase;
+	color: #ffffff;
+	background-color: #766357;
 }
 
 .button {
@@ -179,9 +178,9 @@ a {
 	font-size: 14px;
 	line-height: 21px;
 	color: #000000;
-  	background-color: #ffffff;
-  	border: 2px solid #ffffff;
-  	border-radius: 2px;
+	background-color: #ffffff;
+	border: 2px solid #ffffff;
+	border-radius: 2px;
 }
 
 .hotels-headline a {
@@ -208,11 +207,11 @@ a {
 
 .hotels-button:hover,
 .hotels-button:focus {
- 	background-color: #669ec0;
+	background-color: #669ec0;
 }
 
 .hotels-button:active {
- 	color: #94b9d2;
+	color: #94b9d2;
  	background-color: #5496bd;
 }
 
@@ -223,12 +222,12 @@ a {
 
 .hotels-button-book:hover,
 .hotels-button-book:focus {
- 	background-color: #604e43;
+	background-color: #604e43;
 }
 
 .hotels-button-book:active {
- 	color: #928a85;
-	background-color: #503e33;
+	color: #928a85;
+ 	background-color: #503e33;
 }
 
 .rating-list {
@@ -242,42 +241,42 @@ a {
 }
 
 .main-footer {
- 	background-color: #ffffff;
+	background-color: #ffffff;
 }
 
 .footer-signature {
- 	width: 400px;
- 	font-size: 21px;
- 	line-height: 26px;
- 	font-weight: 700;
- 	color: #000000;
+	width: 400px;
+	font-size: 21px;
+	line-height: 26px;
+	font-weight: 700;
+	color: #000000;
 }
 
 .footer-signature-html {
- 	width: 400px;
+	width: 400px;
 }
 
 .footer-signature-html img {
- 	vertical-align: middle;
+	vertical-align: middle;
 }
-/* ??? */
+
 .social {
 	font-size: 14px;
 	line-height: 26px;
 	display: flex;
 	margin: auto;
-  	justify-content: center;
-  	width: 400px;
-  	text-align: center;
-  	list-style: none;
+	justify-content: center;
+	width: 400px;
+	text-align: center;
+	list-style: none;
 }
 
 .social a {
-  	display: block;
-  	margin: 5px;
-  	height: 48px;
-  	width: 48px;
-  	background-color: #81b3d2;
+	display: block;
+	margin: 5px;
+	height: 48px;
+	width: 48px;
+	background-color: #81b3d2;
 }
 
 /* где 1 таб, где 2 ... */
