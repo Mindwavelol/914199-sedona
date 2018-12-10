@@ -16,11 +16,11 @@ a {
 }
 
 .visually-hidden {
-  position: absolute;
-  clip: rect(0 0 0 0);
-  width: 1px;
-  height: 1px;
-  margin: -1px;
+ 	position: absolute;
+ 	clip: rect(0 0 0 0);
+ 	width: 1px;
+ 	height: 1px;
+ 	margin: -1px;
 }
 /*------------------------header--------------------*/
 
@@ -208,12 +208,12 @@ a {
 
 .hotels-button:hover,
 .hotels-button:focus {
-  background-color: #669ec0;
+ 	background-color: #669ec0;
 }
 
 .hotels-button:active {
-  color: #94b9d2;
-  background-color: #5496bd;
+ 	color: #94b9d2;
+ 	background-color: #5496bd;
 }
 
 .hotels-button-book {
@@ -223,12 +223,12 @@ a {
 
 .hotels-button-book:hover,
 .hotels-button-book:focus {
-  background-color: #604e43;
+ 	background-color: #604e43;
 }
 
 .hotels-button-book:active {
-  color: #928a85;
-  background-color: #503e33;
+ 	color: #928a85;
+	background-color: #503e33;
 }
 
 .rating-list {
@@ -242,23 +242,23 @@ a {
 }
 
 .main-footer {
-  background-color: #ffffff;
+ 	background-color: #ffffff;
 }
 
 .footer-signature {
-  width: 400px;
-  font-size: 21px;
-  line-height: 26px;
-  font-weight: 700;
-  color: #000000;
+ 	width: 400px;
+ 	font-size: 21px;
+ 	line-height: 26px;
+ 	font-weight: 700;
+ 	color: #000000;
 }
 
 .footer-signature-html {
-  width: 400px;
+ 	width: 400px;
 }
 
 .footer-signature-html img {
-  vertical-align: middle;
+ 	vertical-align: middle;
 }
 /* ??? */
 .social {
