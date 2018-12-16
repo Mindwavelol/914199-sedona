@@ -25,9 +25,17 @@ a {
 /*------------------------header--------------------*/
 
 .main-header {
+	margin-left: auto;
+	margin-right: auto;
+	width: 1200px;
 	font-size: 14px;
 	line-height: 26px;
 	font-weight: 700; 
+}
+
+.main-header-logo {
+	position: relative;
+	left: 530px;
 }
 
 .main-navigation {
@@ -36,7 +44,18 @@ a {
 }
 
 .site-navigation {
+	margin: 0;
+	margin-top: -79px;
+	padding: 0;
+	min-height: 56px;
+	display: flex;
 	list-style: none;
+}
+
+.site-navigation li {
+	margin: auto;
+	text-align: center;
+	width: 240px;
 }
 
 .site-navigation a {
@@ -66,9 +85,19 @@ a {
 }
 
 .splash {
-	text-align: center;
+	display: flex;
+	width: 1200px;
+	margin: 0 auto;
+	padding-top: 77px;
 	background-image: url(../img/bg_photo.jpg);
+	background-position: 50% 20%;
 	background-repeat: no-repeat;
+}
+
+.splash img {
+	margin-bottom: 80px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .benefits {
@@ -81,8 +110,25 @@ a {
 }
 
 .headline-slogan {
+	margin: 0;
+	position: relative;
+	bottom: 56px;
+	height: 60px;
+	width: 1200px;
+	text-align: center;
 	background-image: url(../img/intro-mask.svg);
 	background-repeat: no-repeat;
+}
+
+.about-sedona {
+	background-color: #ffffff;	
+	margin: 0 auto;
+	width: 1200px;
+}
+
+.advantages-slogan {
+	padding-bottom: 56px;
+	background-color: #ffffff;
 }
 
 .advantages-block h3 {
@@ -279,4 +325,3 @@ a {
 	background-color: #81b3d2;
 }
 
-/* где 1 таб, где 2 ... */
